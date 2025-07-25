@@ -180,23 +180,6 @@ export default function Contact({ language }: ContactProps) {
               </CardContent>
             </Card>
 
-            {/* Service Availability */}
-            <Card className="bg-green-50 border-green-200">
-              <CardContent className="p-8">
-                <div className="flex items-start space-x-4 rtl:space-x-reverse">
-                  <Clock className="w-6 h-6 text-green-600 mt-1" />
-                  <div>
-                    <h3 className="text-lg font-bold text-brand-black mb-2">
-                      {language === 'ar' ? 'أوقات الخدمة' : 'Service Availability'}
-                    </h3>
-                    <p className="text-green-700 font-medium">
-                      {t("footer.availability")}
-                    </p>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-
             {/* Call to Action Buttons */}
             <div className="space-y-4">
               <Button className="w-full bg-brand-red text-white hover:bg-red-700">

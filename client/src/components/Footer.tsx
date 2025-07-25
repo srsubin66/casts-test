@@ -38,13 +38,7 @@ export function Footer({ language, onLanguageChange }: FooterProps) {
             <p className="text-gray-300 mb-6">
               {t("hero.subtitle")}
             </p>
-            
-            {/* Availability Notice */}
-            <div className="bg-gray-800 p-4 rounded-lg">
-              <p className="text-green-400 font-semibold">
-                {t("footer.availability")}
-              </p>
-            </div>
+
           </div>
 
           {/* Contact Info */}

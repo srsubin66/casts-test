@@ -62,7 +62,6 @@ export const translations: Translations = {
   "cta.schedule": { en: "Schedule Meeting", ar: "حدد موعد اجتماع" },
 
   // Footer
-  "footer.availability": { en: "🟢 Available 15 hours/day, 7 days a week", ar: "🟢 متاح 15 ساعة/يوم، 7 أيام في الأسبوع" },
   "footer.contactInfo": { en: "Contact Information", ar: "معلومات الاتصال" },
   "footer.quickLinks": { en: "Quick Links", ar: "روابط سريعة" },
   "footer.privacy": { en: "Privacy Policy", ar: "سياسة الخصوصية" },
