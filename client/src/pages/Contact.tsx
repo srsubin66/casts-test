@@ -27,8 +27,14 @@ export default function Contact({ language }: ContactProps) {
 
   const contactMutation = useMutation({
     mutationFn: async (data: InsertContactSubmission) => {
-      const response = await apiRequest("POST", "/api/contact", data);
-      return response.json();
+      // For GitHub Pages deployment, we'll simulate a successful submission
+      // In a real deployment, this would call your actual API
+      return new Promise((resolve) => {
+        setTimeout(() => {
+          console.log('Contact form submission:', data);
+          resolve({ success: true });
+        }, 1000);
+      });
     },
     onSuccess: () => {
       toast({
